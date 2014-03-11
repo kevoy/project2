@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+    <link href="{{ url_for('static', filename='cards.css') }}" rel="stylesheet" type="text/css" >
+    <script src="{{ url_for('static', filename='cards.js') }}"></script>
+  </head>
+  <body>
+    <div id='player'>
+        <div id='playerHolder'>
+            <h1>Enter Your Name:</h1>
+            <input type='text' id='playerName' />
+        </div>
+    </div>
+    <div id='saveBox'>
+        <h1>Save Game</h1>
+    </div>
+<div id='menuBox'>
+    <div id='colorTab'>
+    </div>
+    <div id='symbolTab'>
+    </div>
+    <div id='colors'>
+        <div class='colorStyle' id='c1'></div>
+        <div class='colorStyle' id='c2'></div>
+        <div class='colorStyle' id='c3'></div>
+        <div class='colorStyle' id='c4'></div>
+        <div class='colorStyle' id='c5'></div>
+    </div>
+    <div id='symbols'>
+        <a class='s1'>✹</a>
+        <a class='s2'>❅</a>
+        <a class='s3'>❊</a>
+        <a class='s4'>❉</a>
+        <a class='s5'>☺</a>
+        
+    </div>
+</div>
+<div class="sideBox"></div>
+</body>
+</html>

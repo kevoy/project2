@@ -1,0 +1,28 @@
+CACHE MANIFEST
+
+# version 2011-07-012 06:06:44 v1
+
+CACHE:
+
+# html files
+# cards.html
+# http://atcode-76450.use1.nitrousbox.com:8080/
+#http://atcode-76450.use1.nitrousbox.com:8080/static/cards.js
+static/cards.css
+static/cards.js
+
+# css files
+cards.css
+static/cards.css
+# images
+
+
+# misc
+#js
+cards.js
+
+FALLBACK:
+*
+
+NETWORK:
+*

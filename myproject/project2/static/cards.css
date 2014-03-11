@@ -1,0 +1,226 @@
+.sideBox{
+  display:block;
+   width:500px; 
+   margin-top: 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+body{
+    background: url('stardust.png');
+}
+#player{
+    display:block;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background-color: black;
+    opacity: 0.95;
+    z-index: 100;
+}
+#playerHolder{
+    display:block;
+    margin:100px auto;
+    width:400px;
+    background-color: red;
+    padding:5px 0px 30px 0px;
+    text-align: center;
+}
+#playerHolder h1{
+    color:white;
+    text-align: center;
+}
+#playerHolder input{
+    width:300px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    text-align: center;
+    font-size: 20px;
+}
+#saveBox{
+    display:block;
+    width:200px;
+    height:60px;
+    position: fixed;
+    background-color: #33CCFF;
+    left:-15px;
+    top:50%;
+    margin-top: -30px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    transition: all ease-in-out 0.4s;
+}
+#saveBox h1{
+    color:white;
+    
+}
+#saveBox:hover{
+    left:0px;
+    box-shadow: 0px 0px 20px black;  
+    cursor: pointer;  
+}
+#menuBox{
+    display:block;
+    width:600px;
+    height:50px;
+    background-color:#33CCFF;
+    border-radius:5px;
+    box-shadow:0px 0px 10px #33CCFF;
+    margin-right: auto;
+   margin-left: auto;
+}
+#colorTab{
+    display:inline-block;
+    height:100%;
+    width:50px;
+    background: url('http://www.clker.com/cliparts/A/d/o/q/l/f/ink-splash-with-drops-brown-md.png') no-repeat;
+    background-size:30px 30px;
+    background-position:center center;
+    border-top-left-radius:5px;
+     border-bottom-left-radius:5px;
+   border-right:1px solid white;
+    transition:background-color 1s;
+    cursor:pointer;
+    
+    
+}
+#colorTab:hover{
+    background-color:#3399CC;
+}
+#symbolTab{
+    display:inline-block;
+    height:100%;
+    width:50px;
+    margin-left:-2px;
+    border-right:1px solid white;
+    transition:background-color 1s;
+    cursor:pointer;
+    background: url('http://icons.iconarchive.com/icons/icons-land/metro-raster-sport/256/Casino-Playing-Cards-icon.png') no-repeat;
+    background-size:30px 30px;
+    background-position:center center;
+}
+#symbolTab:hover{
+    background-color:#3399CC;
+}
+#symbols{
+    display:inline-block;
+    width:300px;
+    height:100%;
+    
+    
+    
+    
+}
+#symbols a{
+    display:block;
+   float:left;
+    font-size:50px;
+    margin-left:15px;
+    cursor:pointer;
+
+}
+#colors{
+    display:none;
+    width:500px;
+    height:100%;
+       
+    
+}
+.colorStyle{
+    width:40px;
+    height:40px;
+    display:inline-block;
+    margin:0px 2px 2px 2px;
+    border:1px solid white;
+    border-radius:10px;
+    margin-left:15px; 
+    cursor:pointer;
+}
+#c1{
+    background-color:red;
+}
+#c2{
+    background-color:green;
+}
+#c3{
+    background-color:blue;
+}
+#c4{
+    background-color:orange;
+}
+#c5{
+    background-color:yellow;
+}
+.cardHolder{
+    position:relative;
+    display:inline-block;
+    background-color:transparent;
+    width:100px;
+    height:120px;
+    margin:5px;
+    padding:0px;
+     border-radius: 20px;
+     
+}
+.card{
+    position:absolute;
+    display:block;
+    background-color:white;
+    font-size:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    width:auto;
+    padding:40% 0px 0px 0px;
+    line-height: 100%;
+    left:1px;
+    top:0px;
+    right:1px;
+    bottom:0px;    
+    text-align:center;
+    border-radius: 20px;
+     opacity:0;
+     box-shadow: 0px 0px 10px black;
+    -webkit-transform:rotatey(-180deg);
+    transition: all ease-in-out 0.4s;
+}
+.cardBack{
+    position:absolute;
+    background-color:#fdd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    border-radius: 20px;
+    font-size:100px;
+    opacity:1;
+    box-shadow: 0px 0px 10px black;
+    transition: all ease-in-out 0.4s;
+    cursor:pointer;
+
+}
+.invisible{
+    -webkit-transform:rotatey(180deg);    
+    opacity:0;
+    
+    
+}
+.visible{
+    visibility:visible;    
+}
+.cardVisible{
+    -webkit-transform:rotatey(0deg);
+     opacity:1;
+}
